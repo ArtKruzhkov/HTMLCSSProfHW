@@ -531,9 +531,9 @@ summary::-webkit-details-marker {
   fill: #F16D7F;
 }
 
-.burgercheckLabel:hover path {
+.burgercheckLabel path {
   fill: #FFF;
-  transition: fill 0.3s;
+  transition: all 0.3s;
 }
 
 .burgercheckLabel:hover path {
