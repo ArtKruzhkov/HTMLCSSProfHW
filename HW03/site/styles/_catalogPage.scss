@@ -75,6 +75,7 @@ a {
     right: -$widthBurgerMenu;
     top: 81.2px;
     transition: right 0.5s;
+    z-index: 10;
 
     &-title {
         color: $colorText;
@@ -378,6 +379,7 @@ a {
         color: #ffffff;
         border: 1px solid #ffffff;
         pointer-events: all;
+        transition: color 0.3s;
 
         &:hover {
             color: #f16d7f;

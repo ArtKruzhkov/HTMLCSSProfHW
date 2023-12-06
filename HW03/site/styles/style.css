@@ -208,6 +208,7 @@ a {
   right: -232px;
   top: 81.2px;
   transition: right 0.5s;
+  z-index: 10;
 }
 .nav-burger-title {
   color: #000;
@@ -476,6 +477,7 @@ a {
   color: #ffffff;
   border: 1px solid #ffffff;
   pointer-events: all;
+  transition: color 0.3s;
 }
 .product-item-add:hover {
   color: #f16d7f;
